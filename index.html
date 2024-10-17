@@ -11,11 +11,11 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="body-dd-bg">
 
   <header>
-    <nav class="navbar navbar-expand-lg bg-dd-primary" data-bs-theme="dark"> 
-      <div class="container px-5">
+    <nav class="navbar sticky-top navbar-expand-lg bg-dd-primary" data-bs-theme="dark">
+      <div class="container-lg px-lg-5">
         <a class="navbar-brand" href="#">
           <img src="/images/daily-dish-logo.svg" alt="Logo" width="30" height="24"
             class="d-inline-block align-text-top">
@@ -25,7 +25,8 @@
           aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end bg-dd-primary" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end bg-dd-primary" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1">
               <li class="nav-item">
@@ -52,26 +53,30 @@
 
 
   <main>
-    
+
     <section id="hero">
-      <div class="container text-center p-5"> 
-        <div class="row justify-content-center m-0">
-          <div class="col-lg-8">
-            <h1 class="pt-5">Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
-            <p>With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery shopping, or cleanup.</p>
-            <button class="btn btn-dd-primary">Get Started Today and Save Time!</button>
+      <div class="container-lg p-5">
+        <div class="px-5 m-5 text-center">
+          <h1>Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
+          <div class="col-lg-6 mx-auto">
+            <p>With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery
+              shopping, or cleanup.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button class="btn btn-lg btn-dd-primary">Get Started Today and Save Time!</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="container text-center px-5">
+      <div class="container-lg-lg text-center px-5">
         <h2 class="pb-2">How it Works</h2>
-        <p class="pb-5">Say goodbye to meal planning stress! With Daily Dish, you’ll enjoy chef-crafted meals made from fresh,
+        <p class="pb-5">Say goodbye to meal planning stress! With Daily Dish, you’ll enjoy chef-crafted meals made from
+          fresh,
           natural ingredients, delivered right to your door—ready to cook in minutes.</p>
         <div class="row pb-5">
-          <div class="col-sm-4 pb-4">
+          <div class="col-lg-4 pb-4">
             <div class="d-flex justify-content-center">
               <img src="images/meal.svg" class="mx-auto" alt="" width="100" height="auto">
             </div>
@@ -79,7 +84,7 @@
             <p>Explore a wide variety of delicious meal options, tailored to your dietary preferences—whether you're
               vegan, low-carb, or just looking for wholesome comfort food.</p>
           </div>
-          <div class="col-sm-4 pb-4">
+          <div class="col-lg-4 pb-4">
             <div class="d-flex justify-content-center">
               <img src="images/vegetables.svg" alt="" width="100" height="auto">
             </div>
@@ -87,7 +92,7 @@
             <p>We source the freshest, highest-quality ingredients and deliver them in perfectly portioned kits. No
               waste, no hassle.</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             <div class="d-flex justify-content-center">
               <img src="images/plate-fork-spoon.svg" alt="" width="100" height="auto">
             </div>
@@ -96,20 +101,20 @@
               minutes—no kitchen skills required!</p>
           </div>
         </div>
-        <button class="btn btn-dd-primary">Pick Your Plan</button>
+        <button class="btn btn-lg btn-dd-primary">Pick Your Plan</button>
       </div>
     </section>
 
     <hr>
 
     <section>
-      <div class="container px-5">
+      <div class="container-lg px-5">
         <h2 class="text-center pb-5">The Smarter Way to Eat Healthy</h2>
         <div class="row align-items-center">
-          <div class="col-sm-6 order-2 order-sm-1">
+          <div class="col-lg-6 order-2 order-lg-1">
             <img src="images/family-eating.png" class="img-fluid" alt="Family enjoying dinner">
           </div>
-          <div class="col-sm-6 order-1 order-sm-2 pb-3">
+          <div class="col-lg-6 order-1 order-lg-2 pb-3">
             <ul class="list-unstyled text-center text-sm-start">
               <li>
                 <h3>Save Time & Stress</h3>
@@ -136,12 +141,12 @@
 
 
     <section class="bg-dd-primary">
-      <div class="container px-5">
+      <div class="container-lg px-5">
         <div>
           <h2 class="text-center pb-5">What Our Customers Are Saying</h2>
 
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-lg-4">
               <figure class="d-flex flex-column text-center align-items-center pb-5">
                 <img src="images/sarah.jpg" class="rounded-circle mb-3" alt="Profile picture of Sarah" width="100"
                   height="100">
@@ -154,9 +159,10 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-sm-4">
+            <div class="col-lg-4">
               <figure class="d-flex flex-column text-center align-items-center pb-5">
-                <img src="images/tom.jpg" class="rounded-circle mb-3" alt="Profile picture of Tom" width="100" height="100">
+                <img src="images/tom.jpg" class="rounded-circle mb-3" alt="Profile picture of Tom" width="100"
+                  height="100">
                 <blockquote class="blockquote">
                   <p>"I love that I can adjust the menu to fit my family’s preferences. Daily Dish makes healthy eating
                     simple for all of us."</p>
@@ -166,7 +172,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-sm-4">
+            <div class="col-lg-4">
               <figure class="d-flex flex-column text-center align-items-center pb-5">
                 <img src="images/julia.jpg" class="rounded-circle mb-3" alt="Profile picture of Julia" width="100"
                   height="100">
@@ -186,7 +192,7 @@
     </section>
 
     <section>
-      <div class="container px-5">
+      <div class="container-lg px-5">
         <div>
           <h2 class="text-center pb-5">Questions? We Have Answers</h2>
           <div class="accordion border accordion-flush" id="accordionFlushExample">
@@ -233,33 +239,31 @@
 
 
     <section id="cta">
-      <div class="container text-center px-5">
+      <div class="container-lg text-center px-5">
         <div class="d-flex flex-column justify-content-center align-items-center text-light">
           <h2 class="pb-4">Join Thousands of Time-Savers – Start Eating Better Today!</h2>
-          <button class="btn btn-dd-primary">Sign Up and Get 30% Off Your First
+          <button class="btn btn-lg btn-dd-primary">Sign Up and Get 30% Off Your First
             Week</button>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="bg-dd-primary py-4">
-    <div class="container px-5">
-      <div class="row justify-content-between align-items-center">
-        <div class="col">
-          <a href="#" style="text-decoration: none; color: inherit">
-            <img src="images/daily-dish-logo.svg" alt="Logo" width="35" height="auto">
-            <span>&copy; 2024 Company, Inc</span>
-          </a>
-        </div>
-
-        <div class="col d-flex justify-content-end">
-          <ul class="list-unstyled d-flex m-0">
-            <li class="pe-2"><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a></li>
-            <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a></li>
-          </ul>
-        </div>
+  <footer class="py-4 bg-dd-primary">
+    <div class="container-lg d-flex flex-wrap justify-content-between align-items-center px-5">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <img src="images/daily-dish-logo.svg" alt="Logo" width="35" height="auto">
+          <span class="text-light">&copy; 2024 Company, Inc</span>
+        </a>
       </div>
+
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="pe-2"><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a>
+        </li>
+        <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a></li>
+      </ul>
     </div>
   </footer>
 

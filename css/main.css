@@ -2,9 +2,14 @@
 
 /* Set custom variables here */
 :root {
-    --dd-light-color: #f8f9fa;
+    --dd-body-bg: #F6F3ED;
+    --dd-light-color: #f6f3ed;
     --dd-dark-color: #2e473a;
     --dd-no-color: transparent;
+}
+
+.body-dd-bg {
+  background-color: var(--dd-body-bg);
 }
 
 .btn-dd-primary {
